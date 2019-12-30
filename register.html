@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>Welcome to register User Name</h1>
+    <!--  Link  -->
     <a href="index.html">Start Page</a>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cumque
@@ -19,39 +20,47 @@
     <!--  Form  -->
     <form action="">
       <span>First name :</span>
-      <input type="text" name="" id="" placeholder="insert name here" /> <br />
+      <!-- Text input -->
+      <input type="text" name="firstName" placeholder="insert name here" />
+      <br />
       <span>Last name :</span>
-      <input type="text" name="" id="" placeholder="insert last name" /> <br />
+      <input type="text" name="lastName" id="" placeholder="insert last name" />
+      <br />
       <span>Email :</span>
-      <input type="email" name="" id="" placeholder="insert Email" /> <br />
+      <input type="email" name="email" id="" placeholder="insert Email" />
+      <br />
       <span>Insert birthday</span>
-      <input type="date" name="" id="" /> <br />
+      <input type="date" name="birthday" id="" /> <br />
 
       <!-- Input type -->
       <h3>Gender</h3>
       <br />
       <span>Male</span>
+      <!-- Radio button -->
       <input type="radio" name="gender" id="" />
       <span>Female</span>
       <input type="radio" name="gender" id="" />
       <span>Other</span>
       <input type="radio" name="gender" id="" /> <br />
-      <input type="submit" value="Register" />
-      <input type="reset" value="reset" />
 
       <!--  Pets -->
       <h3>Pets</h3>
-      <input type="checkbox" name="pets" id="" />
+      <!-- Checkbox -->
+      <input type="checkbox" name="cat" id="" />
       <span>Cat</span>
-      <input type="checkbox" name="pets" id="" />
+      <input type="checkbox" name="dog" id="" />
       <span>Dog</span> <br />
 
       <!-- Cars -->
+      <!--  Select -->
       <select name="cars" id="">
-        <option value="volvo">volvo</option>
-        <option value="ford">ford</option>
-        <option value="audi">audi</option>
+        <option value="volvo" name="volvo">volvo</option>
+        <option value="ford" name="ford">ford</option>
+        <option value="audi" name="audi">audi</option>
       </select>
+      <br />
+      <input type="submit" value="Register" />
+      <input type="reset" value="reset" />
     </form>
   </body>
 </html>
