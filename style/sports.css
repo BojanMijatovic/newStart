@@ -66,7 +66,7 @@ body {
 }
 
 html {
-  background: #eedfd3;
+
   font-family: 'Cabin', sans-serif;
   font-size: 62.5%;
   letter-spacing: 0.1rem;
@@ -74,6 +74,10 @@ html {
 
 
 /* Header */
+
+header {
+  background: #e5d8bf;
+}
 
 #sport img {
   margin: 1rem;
@@ -105,6 +109,9 @@ header nav ul li a:active {
 
 
 /*  Why us */
+#whyUs {
+  background: #e5d8bf;
+}
 
 #whyUs h2 {
   font-size: 2.2rem;
@@ -120,6 +127,9 @@ header nav ul li a:active {
 }
 
 /*  About  */
+#about {
+  background: #e5d8bf;
+}
 
 #about h2 {
   font-size: 2.2rem;
@@ -137,6 +147,11 @@ header nav ul li a:active {
 
 
 /*  Customer */
+
+
+#customer {
+  background: #e5d8bf;
+}
 
 #customer h2 {
   font-size: 2.2rem;
@@ -165,6 +180,10 @@ header nav ul li a:active {
 
 
 /*  Footer */
+
+footer {
+  margin-top: 3rem;
+}
 
 footer nav ul li {
   list-style: none;
@@ -196,7 +215,7 @@ footer .footer-contact a:active {
   color: #171717;
 }
 
-a footer .footer-design {
+footer .footer-design {
   font-size: 1.4rem;
   text-align: center;
 }
