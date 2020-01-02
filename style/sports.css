@@ -42,6 +42,15 @@ four viewport units: vw, vh, vmin, and vmax where
 
 /*  Global style */
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background: #eedfd3;
   font-family: 'Cabin', sans-serif;
@@ -49,7 +58,12 @@ html {
   letter-spacing: 0.1rem;
 }
 
+
 /* Header */
+
+#sport img {
+  margin: 1rem;
+}
 
 header nav ul li {
   list-style: none;
@@ -61,8 +75,6 @@ header nav ul li a {
   color: #2f2f2f;
 }
 
-
-
 #sport h1 {
   font-size: 3.5rem;
   color: #3e3b39;
@@ -71,6 +83,7 @@ header nav ul li a {
   text-align: center;
 }
 
+
 /*  Why us */
 
 #whyUs h2 {
@@ -78,6 +91,12 @@ header nav ul li a {
   text-align: center;
   color: #908b86;
   background: #f5f3f2;
+  margin-top: 2.5rem;
+}
+
+#whyUs p {
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
 /*  About  */
@@ -87,7 +106,14 @@ header nav ul li a {
   text-align: center;
   color: #908b86;
   background: #f5f3f2;
+  margin-top: 2.5rem;
 }
+
+#about .about-description {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
 
 
 /*  Customer */
@@ -97,15 +123,32 @@ header nav ul li a {
   text-align: center;
   color: #908b86;
   background: #f5f3f2;
+  margin-top: 2.5rem;
 }
 
-/*  Footer */
+#customer h3 {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+}
 
+#customer ul li img {
+  margin-left: 4rem;
+}
+
+#customer ul li {
+  list-style: none;
+}
+
+#customer ul li p {
+  font-size: 1.5rem;
+}
+
+
+/*  Footer */
 
 footer nav ul li {
   list-style: none;
 }
-
 
 footer nav ul li a {
   font-size: 1.5rem;
