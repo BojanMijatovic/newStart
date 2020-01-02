@@ -1,0 +1,27 @@
+/*
+Colors type
+
+• red—assertive, powerful, sexy, dangerous
+• pink—innocent, romantic, feminine
+• black—strong, classic, stylish
+• gray—business-like, detached
+• yellow—warm, cheerful, optimistic
+• blue—consoling, serene, quiet
+• orange—friendly, vigorous, inviting
+• white—clean, pure, straightforward, innocent
+*/
+
+html {
+  background: #eedfd3;
+}
+
+
+h1 {
+  color: #ffffff;
+  background-color: #de803c;
+}
+
+h2 {
+  color: white;
+  background-color: #ebb183;
+}
