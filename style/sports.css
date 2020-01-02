@@ -40,6 +40,20 @@ four viewport units: vw, vh, vmin, and vmax where
 • 1vmax = 1vw or 1vh (whichever is larger)
 */
 
+/* 
+              Using Dynamic Pseudo-Class to Create Hypertext
+
+• To create a rollover for a hypertext link, use the pseudo-classes
+a:link
+a:visited
+a:hover
+a:active
+where the link pseudo-element matches unvisited link, visited matches previously
+visited links, hover matches links that have the mouse pointer hovering over them,
+and active matches links that are in the action of being clicked.
+*/
+
+
 /*  Global style */
 
 * {
@@ -67,12 +81,18 @@ html {
 
 header nav ul li {
   list-style: none;
+  margin: 0.5rem;
 }
 
 header nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #2f2f2f;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+  color: #171717;
 }
 
 #sport h1 {
@@ -148,12 +168,18 @@ header nav ul li a {
 
 footer nav ul li {
   list-style: none;
+  margin: 0.5rem;
 }
 
 footer nav ul li a {
   font-size: 1.5rem;
   text-decoration: none;
   color: #2f2f2f;
+}
+
+footer nav ul li a:hover,
+footer nav ul li a:active {
+  color: #171717;
 }
 
 footer .footer-contact {
@@ -165,7 +191,12 @@ footer .footer-contact a {
   color: #2f2f2f;
 }
 
-footer .footer-design {
+footer .footer-contact:hover,
+footer .footer-contact a:active {
+  color: #171717;
+}
+
+a footer .footer-design {
   font-size: 1.4rem;
   text-align: center;
 }
