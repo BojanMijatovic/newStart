@@ -8,11 +8,15 @@
       name="keyword"
       content="sports site sports wear shop sport equipment"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/sports.css" />
     <title>Sports</title>
   </head>
   <body>
-    <header>
+    <header id="sport">
       <a href="sports.html"
         ><img src="./img/icon.png" alt="icon" width="25" height="25"
       /></a>
@@ -20,6 +24,7 @@
       <nav>
         <ul>
           <li><a href="#sport">Home</a></li>
+          <li><a href="#whyUs">Why us</a></li>
           <li><a href="#about">About us</a></li>
           <li><a href="#customer">Customers</a></li>
           <li><a href="#contact">Contact us</a></li>
@@ -27,21 +32,25 @@
       </nav>
     </header>
     <main>
-      <article>
-        <h2>Train all day</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          totam molestias voluptatibus sed fuga neque perspiciatis quod aut
-          labore assumenda voluptas quisquam iste, aliquam sint enim nemo minus
-          cum obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Dolorem nesciunt illo ducimus. Exercitationem et sint distinctio
-          facere quaerat? Modi excepturi ipsam omnis. Minima velit ducimus
-          error. Nihil necessitatibus, voluptatem ratione provident vero
-          doloribus, repudiandae impedit pariatur ab omnis enim! Enim fuga, odit
-          totam nulla placeat quas, odio deserunt assumenda voluptate aperiam,
-          nesciunt doloribus doloremque eaque aut eius labore asperiores dolore!
-        </p>
-      </article>
+      <section id="whyUs">
+        <article>
+          <h2>Train all day</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus totam molestias voluptatibus sed fuga neque perspiciatis
+            quod aut labore assumenda voluptas quisquam iste, aliquam sint enim
+            nemo minus cum obcaecati. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Dolorem nesciunt illo ducimus. Exercitationem et
+            sint distinctio facere quaerat? Modi excepturi ipsam omnis. Minima
+            velit ducimus error. Nihil necessitatibus, voluptatem ratione
+            provident vero doloribus, repudiandae impedit pariatur ab omnis
+            enim! Enim fuga, odit totam nulla placeat quas, odio deserunt
+            assumenda voluptate aperiam, nesciunt doloribus doloremque eaque aut
+            eius labore asperiores dolore!
+          </p>
+        </article>
+      </section>
+
       <section id="about">
         <h2>About us</h2>
         <article>
@@ -55,7 +64,7 @@
           ducimus voluptatibus et incidunt voluptates. Deserunt sed ad nostrum!
         </article>
       </section>
-      <section>
+      <section id="customer">
         <h2>Customers</h2>
         <ul>
           <li>
@@ -100,7 +109,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer id="contact">
       <nav>
         <ul>
           <li><a href="#sport">home</a></li>
@@ -108,13 +117,12 @@
           <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
-      <p>
+      <p class="footer-contact">
         contact us :<a href="mailto:bojanmijatovic007@gmail.com"
           >bojanmijatovic007@gmail.com</a
         >
       </p>
-
-      <p>design by &copy;Omega</p>
+      <p class="footer-design">design by &copy;Omega</p>
     </footer>
   </body>
 </html>

@@ -1,5 +1,5 @@
 /*
-Colors type
+                              Colors type
 
 • red—assertive, powerful, sexy, dangerous
 • pink—innocent, romantic, feminine
@@ -11,17 +11,118 @@ Colors type
 • white—clean, pure, straightforward, innocent
 */
 
+/* 
+                      Using Contextual Selectors
+
+• To select all elements, use the * selector.
+• To select a single element, use the elem selector, where elem is the name of the
+element.
+• To select a descendant element, use the parent descendant selector where parent
+is a parent element and descendant is an element nested within the parent at some
+lower level.
+• To select a child element, use the parent > child selector.
+• To select a sibling element, elem2, that directly follows elem1, use the
+elem1 + elem2 selector.
+• To select a sibling element, elem2, that follows, but not necessarily directly elem1,
+use the elem1 ~ elem2 selector.
+*/
+
+/* 
+                        Using Viewport Units
+
+Another relative unit is the viewport unit in which lengths are expressed as a
+percentage of the width or height of the browser window. As the browser window is
+resized, the size of text based on a viewport unit changes to match. CSS3 introduced
+four viewport units: vw, vh, vmin, and vmax where
+• 1vw = 1% of the browser window width
+• 1vh = 1% of the browser window height
+• 1vmin = 1vw or 1vh (whichever is smaller)
+• 1vmax = 1vw or 1vh (whichever is larger)
+*/
+
+/*  Global style */
+
 html {
   background: #eedfd3;
+  font-family: 'Cabin', sans-serif;
+  font-size: 62.5%;
+  letter-spacing: 0.1rem;
+}
+
+/* Header */
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #2f2f2f;
 }
 
 
-h1 {
-  color: #ffffff;
-  background-color: #de803c;
+
+#sport h1 {
+  font-size: 3.5rem;
+  color: #3e3b39;
+  background-color: #faf9f8;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-h2 {
-  color: white;
-  background-color: #ebb183;
+/*  Why us */
+
+#whyUs h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #908b86;
+  background: #f5f3f2;
+}
+
+/*  About  */
+
+#about h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #908b86;
+  background: #f5f3f2;
+}
+
+
+/*  Customer */
+
+#customer h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #908b86;
+  background: #f5f3f2;
+}
+
+/*  Footer */
+
+
+footer nav ul li {
+  list-style: none;
+}
+
+
+footer nav ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+footer .footer-contact {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+footer .footer-contact a {
+  color: #2f2f2f;
+}
+
+footer .footer-design {
+  font-size: 1.4rem;
+  text-align: center;
 }
