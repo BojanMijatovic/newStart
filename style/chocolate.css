@@ -50,7 +50,7 @@ html {
 .header-address {
   font-size: 2.8rem;
   text-align: left;
-  color: #fffad8;
+  color: #ffffff;
   margin-left: 3rem;
   padding: 1.5rem;
   text-transform: uppercase;
@@ -142,19 +142,71 @@ html {
 /*  Section About */
 
 #about h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 4rem;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
+  color: #9c5e33;
 }
 
 .about-chocolate {
   text-align: center;
 }
 
-
 .about-chocolate__item {
   display: inline-block;
+}
+
+.about-chocolate__item img {
+  border: #9c5e33 2px solid;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+.about-chocolate__item img:active,
+.about-chocolate__item img:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 0.5px;
+}
+
+.about-chocolate__title {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  color: #9c5e33;
+}
+
+.rule {
+  color: #9c5e33;
+  width: 78%;
+  margin: 3rem auto 0 auto;
+
+}
+
+/*  Footer */
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav .footer-nav-items {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-nav .footer-nav__item {
+  margin: 2.4rem;
+  display: inline-block;
+}
+
+.footer-nav .footer-nav__links {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #9c5e33;
+}
+
+.footer-nav .footer-nav__links:active,
+.footer-nav .footer-nav__links:hover {
+  color: #000000;
 }
