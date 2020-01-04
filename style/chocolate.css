@@ -11,8 +11,6 @@ dark-color2: 	#46362a
 
 */
 
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -139,4 +137,24 @@ html {
   text-align: center;
   font-size: 1.6rem;
   padding: 2rem;
+}
+
+/*  Section About */
+
+#about h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1rem;
+}
+
+.about-chocolate {
+  text-align: center;
+}
+
+
+.about-chocolate__item {
+  display: inline-block;
 }
