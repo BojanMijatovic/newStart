@@ -1,3 +1,18 @@
+/*  Colors */
+
+/*  ----Color Palette
+
+white-color : #ffffff;
+white-color1 :  	#fffad8
+background-color: #ffd08d
+color :  	#ffb070
+dark-color :  	#9c5e33
+dark-color2: 	#46362a
+
+*/
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +26,117 @@ body {
 
 html {
   font-size: 62.5%;
+  background: #fffad8;
+}
+
+/*  Header */
+
+.header {
+  background: url('../img/chocolate_background.jpg') center/cover no-repeat;
+  min-height: 20rem;
+  min-width: 25rem;
+}
+
+.header h1 {
+  text-align: right;
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 3rem;
+  padding-top: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-shadow: #fffad8 0.3px 0.3px 0.4px;
+}
+
+.header-address {
+  font-size: 2.8rem;
+  text-align: left;
+  color: #fffad8;
+  margin-left: 3rem;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-nav {
+  margin: 2rem;
+}
+
+
+.main-nav .main-nav__items {
+  list-style: none;
+  text-align: right;
+}
+
+.main-nav__items .nav-item {
+  display: inline-block;
+}
+
+.nav-item .nav-item__links {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #ffffff;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.nav-item .nav-item__links:active,
+.nav-item .nav-item__links:hover {
+  color: #fffad8;
+}
+
+/*  Section Home */
+
+#home {
+  margin: 2rem auto 4rem;
+  display: inline-block;
+}
+
+.home-description {
+
+  margin-bottom: 6rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.home-description .home-description__title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-left: 3rem;
+  padding: 1.5rem;
+}
+
+.home-description .home-description__text {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.home-description__img {
+  display: inline-block;
+  margin: 2rem;
+  text-align: center;
+}
+
+.home-description__img img {
+  border-radius: 0.5rem;
+  border: solid #9c5e33 3px;
+  box-shadow: #9c5e33 1px 1px 1px 1px;
+}
+
+.home-description__img img:active,
+.home-description__img img:hover {
+  box-shadow: none;
+}
+
+.home-description__subtitle {
+  font-size: 2.2rem;
+  margin-top: 1.8rem;
+}
+
+.home-description__img p {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2rem;
 }
